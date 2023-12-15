@@ -1,0 +1,57 @@
+User-Agent: *
+Allow: /
+Sitemap: https://www.sito.it/sitemap.xml
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: Spinn3r
+Disallow: /
+
+User-agent: coccoc
+Disallow: /
+
+User-agent: exabot
+Disallow: /
+
+User-agent: ezooms
+Disallow: /
+
+User-agent: fatbot
+Disallow: /
+
+User-agent: jikespider
+Disallow: /
+
+User-agent: psbot
+Disallow: /
+
+User-agent: sitebot
+Disallow: /
+
+User-agent: sosospider
+Disallow: /
+
+User-agent: voilabot
+Disallow: /
+
+User-agent: willybot
+Disallow: /
+
+User-agent: yodaobot
+Disallow: /
+
+User-agent: GermCrawler
+Disallow: /

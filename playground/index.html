@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+    <head>
+        <title>Playground | Test Frontend</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="format-detection" content="telephone=no">
+
+        <!-- SEO -->
+        <meta name="title" content="Playground | Test Frontend">
+        <meta name="description" content="Test Frontend per playground, sviluppo landing page">
+        <meta name="keywords" lang="it" content="frontend playground">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="msvalidate.01" content="9AA55B02F346C935B022CCAF7562FD4E">
+        <meta name="google-site-verification" content="SB4ytQO27FMpMeGQwTJDXdcmu6TAcb3Ck-p_6QrElQA" >
+        <meta name="robots" content="index,follow">
+        <meta name="googlebot" content="index,follow">
+
+        <link rel="canonical" href="wwww.playground.it">
+        <meta name="revisit-after" content="1 week" >
+        
+        <meta property="og:title" content="Playground | Test Frontend" >
+        <meta property="og:description" content="Test Frontend per playground, sviluppo landing page" >
+        <meta property="og:url" content="" >
+        <meta property="og:type" content="site" >
+        <meta property="og:street-address" content="Str. Padana Superiore, 2B" >
+        <meta property="og:locality" content="Cernusco sul Naviglio MI" >
+        <meta property="og:postal-code" content="20063" >
+        <meta property="og:country-name" content="italia" >
+        <meta property="og:email" content="info@playground.it" >
+        <meta property="og:phone_number" content="+390240706003" >    
+        <meta property="og:site_name" content="Playground | Test Frontend" >
+        <meta property="og:image" content="assets/images/logo-playground-black.png" >
+        <meta property="og:image:secure_url" content="assets/images/logo-playground-black.png" >
+        <meta property="og:image:type" content="image/jpg" >
+        <meta property="og:image:width" content="130" >
+        <meta property="og:image:height" content="150" >   
+        <!-- fine SEO -->
+        
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        
+        
+        <!-- file css -->    
+        <link href="assets/css/font.css" rel="stylesheet" type="text/css" >
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" >
+        <link href="assets/splide/splide-core.min.css" rel="stylesheet" type="text/css" >  <!--slider-->
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="navbar" id="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/images/logo-playground-white.png" alt="logo Playground" class="logo--img"></a>
+                    </div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="index.html#weare">we are</a></li>
+                            <li><a href="index.html#wedo">we do</a></li>
+                            <li><a href="index.html#careers">careers</a></li>
+                            <li><a href="index.html#contact">contact us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="menu_resp--btn" onclick="openNav()"><img src="assets/images/menu.svg" alt="hamburger menu button"></div>
+
+                    <div id="mySidenav" class="sidenav">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="assets/images/close.svg" alt="close button"></a>
+						<div class="bgblack">
+							<nav class="menu_resp">
+                                <ul>
+                                    <li><a href="index.html#weare">we are</a></li>
+                                    <li><a href="index.html#wedo">we do</a></li>
+                                    <li><a href="index.html#careers">careers</a></li>
+                                    <li><a href="index.html#contact">contact us</a></li>
+                                </ul>
+                            </nav>
+						</div>
+					</div>
+
+                </div>
+            </div>
+
+            <div class="splide" id="slide-home">
+				<div class="splide__track">
+					<ul class="splide__list">
+						<li class="splide__slide">
+							<img src="assets/images/slide-hello.jpg" alt="Slide Hello" >
+						</li>
+						<li class="splide__slide">
+							<img src="assets/images/slide-circle.jpg" alt="Slide Circle" >
+						</li>
+						<li class="splide__slide">
+							<img src="assets/images/slide-play.jpg" alt="Slide Play" >
+						</li>
+					</ul>
+				</div>
+			</div><!-- splide -->
+
+            <div class="txt_abs">
+                <div class="container">
+                    <div class="txt_abs--txt">
+                        <h1>lorem ipsum.</h1>
+                        <p>Consectetur adipiscing elit.
+                            Nulla condimentum tortor sem,
+                            in semper nisl bibendum eu.</p>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+            <div class="cards">
+                <div class="container">
+                    <div class="card_bl">
+                        <div>
+                            <img src="assets/images/card-play-harder.png" alt="play harder image" class="card_bl--img">
+                            <p>Aenean mollis dolor a mattis viverra. In hac habitasse platea dictumst. Curabitur tempus dui tortor, et bibendum lacus eleifend ut.</p>
+                        </div>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                    <div class="card_bl">
+                        <div>
+                            <img src="assets/images/card-simplicity.png" alt="play harder image" class="card_bl--img">
+                            <p>Donec vitae augue tellus. Proin et urna sit amet metus fermentum dapibus non quis urna.</p>
+                        </div>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                    <div class="card_bl">
+                        <div>
+                            <img src="assets/images/card-innovation.png" alt="play harder image" class="card_bl--img">
+                            <p>Suspendisse vehicula, lectus sed molestie aliquam, arcu neque gravida lacus.</p>
+                        </div>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <section id="weare" class="banner">
+                <div class="banner_bl bl_img"></div>
+                <div class="banner_bl">
+                    <div class="banner_bl--txt">
+                        <h2>we<br>are.</h2>
+                        <p>Consectetur adipiscing elit. <br>
+                            Nulla condimentum tortor sem.</p>
+                        <a href="#" class="btn">THE PLAYERS <img src="assets/images/chevron-right-solid.svg" alt="right arrow"></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="wedo" class="banner">
+                <div class="banner_bl bl_img"></div>
+                <div class="banner_bl">
+                    <div class="banner_bl--txt">
+                        <h2>we<br>do.</h2>
+                        <p>Consectetur adipiscing elit. <br>
+                            Nulla condimentum tortor sem..</p>
+                        <a href="#" class="btn">THE PROJECTS <img src="assets/images/chevron-right-solid.svg" alt="right arrow"></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="careers" class="banner">
+                <div class="banner_bl bl_img"></div>
+                <div class="banner_bl">
+                    <div class="banner_bl--txt">
+                        <h2>careers.</h2>
+                        <p>Consectetur adipiscing elit. <br>
+                            Nulla condimentum tortor sem..</p>
+                        <a href="#" class="btn">THE POSITIONS <img src="assets/images/chevron-right-solid.svg" alt="right arrow"></a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="tabs">
+                <div class="container">
+                    <div class="tab_container" id="tab_container">
+                        <div id="tabs">
+                            <ul>
+                                <li class="tab_container--tab" id="tab_1">Vestibulum at odio sit amet <img src="assets/images/chevron-down-solid.svg" alt="arrow"></li>
+                                <li class="tab_container--tab" id="tab_2">Sed vehicula neque <img src="assets/images/chevron-down-solid.svg" alt="arrow"></li>
+                                <li class="tab_container--tab" id="tab_3">Nulla id libero pretium <img src="assets/images/chevron-down-solid.svg" alt="arrow"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="risultato" class="tab_risultato">
+                        <div id="content"></div>
+                        <div id="loader">
+                            <img src="assets/images/loader.png" alt="loader image" class="loader rotate-center">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <section id="contact" class="contacts">
+                <div class="container">
+                    <div class="contacts_bl--1">
+                        <h2>contact<br>us.</h2>
+                        <p>Playground srl <br>
+                            Via G. Mazzini 3/C, <br>
+                            Cernusco Sul Naviglio (Milano)<br>
+                            -<br>
+                            <a href="tel:+390240706003">T +39 0240706003</a></p>
+                    </div>
+                    <div class="contacts_bl--2">
+                        <form method="post" name="modulo">
+                            <div class="bl_50">
+                                <input type="text" name="name" id="name" placeholder="name">
+								<label for="name">name</label>
+                            </div>
+                            <div class="bl_50">
+                                <input type="text" name="lname" id="lname" placeholder="last name">
+								<label for="lname">last name</label>
+                            </div>
+                            <div class="bl_100">
+                                <input type="email" name="mail" id="mail" placeholder="email" required>
+								<label for="mail">email</label>
+                            </div>
+                            <div class="bl_100">
+                                <textarea name="message" id="message" placeholder="message" required></textarea>
+								<label for="message">message</label>
+                            </div>
+                            <button type="button" value="Send" onClick="Modulo()">send <img src="assets/images/chevron-right-solid.svg" alt="right arrow"></button>
+                          </form>
+                    </div>
+                </div>
+            </section>
+            
+
+        </main>
+
+        <footer>
+            <div class="container">
+                <img src="assets/images/logo-playground-white.png" alt="playground logo" class="logo_ft">
+                <nav class="nav_ft">
+                    <ul>
+                        <li><a href="index.html#weare">we are</a></li>
+                        <li><a href="index.html#wedo">we do</a></li>
+                        <li><a href="index.html#careers">careers</a></li>
+                        <li><a href="index.html#contact">contact us</a></li>
+                    </ul>
+                </nav>
+                <ul class="social">
+                    <li><a href="#" target="_blank"><img src="assets/images/fb.svg" alt="link facebook"></a></li>
+                    <li><a href="#" target="_blank"><img src="assets/images/link.svg" alt="link linkedin"></a></li>
+                    <li><a href="#" target="_blank"><img src="assets/images/insta.svg" alt="link instagram"></a></li>
+                </ul>
+            </div>
+
+        </footer>
+
+        <div id="cookies" class="cookies">
+            <p>Our website uses cookies to improve your experience. To find out more about the cookies we use please see our Cookies Policy.</p>
+            <button id="cookieBtn" onclick="closeCookies()">OK</button>
+        </div>
+
+        <script src="assets/splide/splide.min.js"></script> <!-- slider -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                new Splide('#slide-home', {
+                    type: 'loop',
+                    perPage: 1,
+                    perMove: 1,
+                    padding: 0,
+                    gap: 0,
+                    pauseOnFocus: false,
+                    pauseOnHover: false,
+                    autoplay: true,
+                    arrows: true,
+                    pagination: true,
+                    arrowPath: 'M22.5,28.5a1.5,1.5,0,0,1-1.061-.439l-9-9a1.5,1.5,0,0,1,0-2.121l9-9a1.5,1.5,0,0,1,2.121,2.121L15.621,18l7.939,7.939A1.5,1.5,0,0,1,22.5,28.5Z',
+                }).mount();
+            });
+
+        </script>
+
+        <script src="assets/js/script.js"></script>
+
+    </body>
+</html>
